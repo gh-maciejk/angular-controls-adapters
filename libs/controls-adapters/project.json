@@ -1,0 +1,26 @@
+{
+  "name": "@libs/controls-adapters",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/controls-adapters/src",
+  "prefix": "app",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/controls-adapters/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/controls-adapters/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/controls-adapters/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  }
+}

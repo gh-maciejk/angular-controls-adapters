@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@apps/calc-form": ["libs/apps/calc-form/src/"],
+      "@libs/controls-adapters": ["libs/controls-adapters/src/index.ts"],
+      "@libs/forms": ["libs/forms/src/index.ts"],
+      "@materials/input": ["libs/materials/input/src/"],
+      "@materials/select": ["libs/materials/select/src/"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

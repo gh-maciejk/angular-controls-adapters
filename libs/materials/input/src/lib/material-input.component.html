@@ -1,0 +1,8 @@
+@if(!!control){
+  <mat-form-field>
+    @if(label){
+      <mat-label class="label mb-2">{{ label }}</mat-label>
+    }
+    <input matInput [placeholder]="placeholder" [formControl]="control" [maskito]="mask">
+  </mat-form-field>
+}

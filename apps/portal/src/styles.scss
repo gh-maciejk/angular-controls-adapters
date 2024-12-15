@@ -1,0 +1,28 @@
+@use "@angular/material" as mat;
+
+@include mat.core();
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/open-sans.ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Open Sans' !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,12 @@
+@if(!!control && !!items) {
+  <mat-form-field>
+    @if(label){
+      <mat-label class="label mb-2">{{ label }}</mat-label>
+    }
+    <mat-select [formControl]="control" [placeholder]="placeholder">
+        @for(item of items; track $index){
+      <mat-option [value]="item.value">{{ item.text }} </mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+}

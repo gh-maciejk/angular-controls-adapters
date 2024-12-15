@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Tenor Sans';
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/tenor-sans.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/open-sans.ttf');
+}
+
+@import "colors";
+@import "fonts";
+@import "css-props";
+@import "filters";

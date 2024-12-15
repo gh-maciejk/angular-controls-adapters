@@ -1,0 +1,37 @@
+**/.nx
+**/.angular
+**/bin
+**/obj
+**/out
+**/dist
+**/node_modules
+**/tmp
+**/*.csproj.user
+**/wwwroot
+**/appsettings.dev.json
+**/TestResults
+**/coverage.cobertura.xml
+**/.sonarqube
+**/out-tsc
+**/storybook-static
+# IDE - VSCode
+**/.vscode/*
+**/!.vscode/settings.json
+**/!.vscode/tasks.json
+**/!.vscode/launch.json
+**/!.vscode/extensions.json
+
+# misc
+**/.sass-cache
+**/connect.lock
+**/coverage
+**/libpeerconnection.log
+**/npm-debug.log
+**/yarn-error.log
+**/testem.log
+**/typings
+
+# System Files
+**/.DS_Store
+**/Thumbs.db
+.angular
