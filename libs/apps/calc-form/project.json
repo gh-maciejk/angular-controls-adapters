@@ -1,0 +1,26 @@
+{
+  "name": "@apps/calc-form",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/apps/calc-form/src",
+  "prefix": "app",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/apps/calc-form/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/apps/calc-form/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/apps/calc-form/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  }
+}

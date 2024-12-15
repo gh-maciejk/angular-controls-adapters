@@ -1,0 +1,85 @@
+@use "colors" as colors;
+@use "fonts" as fonts;
+
+:root {
+  --theme-transparent: #{colors.$theme-transparent};
+  --theme-current: #{colors.$theme-current};
+
+  --theme-black: #{colors.$theme-black};
+  --theme-white: #{colors.$theme-white};
+
+  --theme-gray-50: #{colors.$theme-gray-50};
+  --theme-gray-100: #{colors.$theme-gray-100};
+  --theme-gray-200: #{colors.$theme-gray-200};
+  --theme-gray-300: #{colors.$theme-gray-300};
+  --theme-gray-400: #{colors.$theme-gray-400};
+  --theme-gray-500: #{colors.$theme-gray-500};
+  --theme-gray-600: #{colors.$theme-gray-600};
+  --theme-gray-700: #{colors.$theme-gray-700};
+  --theme-gray-800: #{colors.$theme-gray-800};
+  --theme-gray-900: #{colors.$theme-gray-900};
+  --theme-gray-950: #{colors.$theme-gray-950};
+
+  --theme-red-50: #{colors.$theme-red-50};
+  --theme-red-100: #{colors.$theme-red-100};
+  --theme-red-200: #{colors.$theme-red-200};
+  --theme-red-300: #{colors.$theme-red-300};
+  --theme-red-400: #{colors.$theme-red-400};
+  --theme-red-500: #{colors.$theme-red-500};
+  --theme-red-600: #{colors.$theme-red-600};
+  --theme-red-700: #{colors.$theme-red-700};
+  --theme-red-800: #{colors.$theme-red-800};
+  --theme-red-900: #{colors.$theme-red-900};
+  --theme-red-950: #{colors.$theme-red-950};
+
+  --theme-green-100: #{colors.$theme-green-100};
+  --theme-green-200: #{colors.$theme-green-200};
+  --theme-green-300: #{colors.$theme-green-300};
+  --theme-green-400: #{colors.$theme-green-400};
+  --theme-green-500: #{colors.$theme-green-500};
+  --theme-green-600: #{colors.$theme-green-600};
+  --theme-green-700: #{colors.$theme-green-700};
+  --theme-green-800: #{colors.$theme-green-800};
+  --theme-green-900: #{colors.$theme-green-900};
+
+  --theme-blue-50: #{colors.$theme-blue-50};
+  --theme-blue-100: #{colors.$theme-blue-100};
+  --theme-blue-200: #{colors.$theme-blue-200};
+  --theme-blue-300: #{colors.$theme-blue-300};
+  --theme-blue-400: #{colors.$theme-blue-400};
+  --theme-blue-500: #{colors.$theme-blue-500};
+  --theme-blue-600: #{colors.$theme-blue-600};
+  --theme-blue-700: #{colors.$theme-blue-700};
+  --theme-blue-800: #{colors.$theme-blue-800};
+  --theme-blue-900: #{colors.$theme-blue-900};
+  --theme-blue-900: #{colors.$theme-blue-900};
+  --theme-blue-950: #{colors.$theme-blue-950};
+
+  --theme-primary-50:  #{colors.$theme-primary-50};
+  --theme-primary-100: #{colors.$theme-primary-100};
+  --theme-primary-200: #{colors.$theme-primary-200};
+  --theme-primary-300: #{colors.$theme-primary-300};
+  --theme-primary-400: #{colors.$theme-primary-400};
+  --theme-primary-500: #{colors.$theme-primary-500};
+  --theme-primary-600: #{colors.$theme-primary-600};
+  --theme-primary-700: #{colors.$theme-primary-700};
+  --theme-primary-800: #{colors.$theme-primary-800};
+  --theme-primary-900: #{colors.$theme-primary-900};
+  --theme-primary-900: #{colors.$theme-primary-900};
+  --theme-primary-950: #{colors.$theme-primary-950};
+
+  --theme-font-family: #{fonts.$theme-font-family};
+  --theme-font-color: #{fonts.$theme-font-color};
+  --theme-font-light-color: #{fonts.$theme-font-light-color};
+
+  --theme-background: #{colors.$theme-background};
+  --theme-box-color: #{colors.$theme-box-color};
+  --theme-feedback-face-color: #{colors.$theme-feedback-face-color};
+
+  --theme-icon-width: 20px;
+  --theme-icon-height: 20px;
+
+  /* Angular material variables overrides */
+
+  --mat-dialog-container-small-max-width: 90vw;
+}

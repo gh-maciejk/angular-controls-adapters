@@ -1,0 +1,26 @@
+{
+  "name": "@materials/input",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/materials/input/src",
+  "prefix": "app",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/materials/input/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/materials/input/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/materials/input/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  }
+}

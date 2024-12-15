@@ -1,0 +1,51 @@
+@layer components {
+  .front-container {
+    @apply w-full max-w-[965px];
+  }
+
+  .hover-transition {
+    @apply cursor-pointer transition-all duration-100 ease-linear;
+  }
+
+  .rounded-btn {
+    @apply border-2;
+    @apply rounded-full focus:ring-transparent transition-colors duration-150;
+
+    &.big-red,
+    &.big-red-filled {
+      @apply border-red-500 text-center;
+      @apply text-lg px-7 py-3;
+      @apply hover:border-red-600;
+    }
+
+    &.big-red {
+      @apply text-red-500 hover:text-red-600;
+    }
+
+    &.big-red-filled {
+      @apply bg-red-500 text-white hover:bg-red-600;
+    }
+
+    &.big-primary,
+    &.big-primary-filled {
+      @apply border-primary-500 text-center;
+      @apply text-lg px-7 py-3;
+      @apply hover:border-primary-600;
+    }
+
+    &.big-primary {
+      @apply text-primary-500 hover:text-primary-600;
+    }
+
+    &.big-primary-filled {
+      @apply bg-primary-500 text-white hover:bg-primary-600;
+    }
+  }
+
+  .place-content-flex-start {
+    place-content: flex-start;
+  }
+  .place-content-flex-end {
+    place-content: flex-start;
+  }
+}

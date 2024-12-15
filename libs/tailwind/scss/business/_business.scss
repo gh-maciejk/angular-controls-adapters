@@ -1,0 +1,35 @@
+@import "../shared/poppins-font";
+
+@font-face {
+  font-family: 'Tenor Sans';
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/tenor-sans.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/raleway.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/open-sans.ttf');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 200 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('https://doweddin-test-cdn-cpb5dbgpdbbjfdbu.z03.azurefd.net/static/fonts/manrope.ttf');
+}
+
+@import "colors";
+@import "fonts";
+@import "css-props";
+@import "filters";

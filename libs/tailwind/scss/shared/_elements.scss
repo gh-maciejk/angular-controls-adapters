@@ -1,0 +1,10 @@
+.box {
+  @apply rounded block;
+  &:not(.small):not(.no-padding) {
+    @apply px-4 py-6 sm:px-6;
+  }
+
+  &.small {
+    @apply px-3 py-4 sm:px-4;
+  }
+}

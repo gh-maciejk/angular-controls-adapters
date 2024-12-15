@@ -1,0 +1,41 @@
+@layer utilities {
+  $variants: 10 12 14 16 18 20 24 26 28 30 32 34 36 38 42 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82;
+  @each $v in $variants {
+    .icon-height-#{$v} {
+      --theme-icon-height: #{$v}px;
+    }
+    .icon-#{$v} {
+      --theme-icon-height: #{$v}px;
+      --theme-icon-width: #{$v}px;
+    }
+    .icon-width-#{$v} {
+      --theme-icon-width: #{$v}px;
+    }
+  }
+
+  .icon-height {
+    --theme-icon-height: auto;
+  }
+  .icon-width {
+    --theme-icon-width: auto;
+  }
+
+  .place-content-flex-start {
+    place-content: flex-start;
+  }
+  .place-content-flex-end {
+    place-content: flex-start;
+  }
+
+  .place-content-flex-start {
+    place-content: flex-start;
+  }
+
+  .place-content-flex-end {
+    place-content: flex-start;
+  }
+
+  .vertical-line {
+    @apply w-[2px] bg-gray-600 mb-6 sm:mb-12;
+  }
+}
